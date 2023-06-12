@@ -1,9 +1,7 @@
-package at.fhjoanneum.lanfinderkotlin.ReST.api.controller
+package at.fhjoanneum.lanfinderkotlin.restapi.api.controller
 
-import at.fhjoanneum.lanfinderkotlin.ReST.api.model.LanParty
-import at.fhjoanneum.lanfinderkotlin.ReST.api.model.User
-import at.fhjoanneum.lanfinderkotlin.ReST.service.LanPartyService
-import at.fhjoanneum.lanfinderkotlin.ReST.service.UserService
+import at.fhjoanneum.lanfinderkotlin.restapi.api.model.LanParty
+import at.fhjoanneum.lanfinderkotlin.restapi.service.LanPartyService
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestParam

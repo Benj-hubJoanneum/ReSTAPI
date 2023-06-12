@@ -1,4 +1,4 @@
-package at.fhjoanneum.lanfinderkotlin.ReST.api.model
+package at.fhjoanneum.lanfinderkotlin.restapi.api.model
 
 import java.util.*
 

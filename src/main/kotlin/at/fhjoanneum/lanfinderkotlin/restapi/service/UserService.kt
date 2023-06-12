@@ -1,6 +1,6 @@
-package at.fhjoanneum.lanfinderkotlin.ReST.service
+package at.fhjoanneum.lanfinderkotlin.restapi.service
 
-import at.fhjoanneum.lanfinderkotlin.ReST.api.model.User
+import at.fhjoanneum.lanfinderkotlin.restapi.api.model.User
 import org.springframework.stereotype.Service
 import java.util.*
 
