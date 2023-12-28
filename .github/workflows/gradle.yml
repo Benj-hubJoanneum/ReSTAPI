@@ -28,5 +28,8 @@ jobs:
       with:
         java-version: '11'
         distribution: 'temurin'
+    - name: Make Gradlew Executable
+      run: chmod +x gradlew
+      working-directory: path/to/your/project  # Specify the correct path to your project
     - name: Build with Gradle
       run: ./gradlew build
